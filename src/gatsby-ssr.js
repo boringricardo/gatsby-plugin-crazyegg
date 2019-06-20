@@ -1,7 +1,7 @@
 import React from 'react';
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
-  if (process.env.NODE_ENV !== 'production') {
+  if (process.env.NODE_ENV === 'production') {
     const { accountNumber } = pluginOptions;
     const paddedAccount = String(accountNumber).padStart(8, '0');
     return setHeadComponents([
