@@ -24,7 +24,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-crazyegg`,
     options: {
-      account: YOUR_CRAZYEGG_ACCOUNT_NUMBER
+      accountNumber: YOUR_CRAZYEGG_ACCOUNT_NUMBER
     }
   }
 ]
