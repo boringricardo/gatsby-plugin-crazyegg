@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-crazyegg",
   "description": "Gatsby plugin that adds the Crazy Egg tracking script",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "Ricardo van Hoepen",
   "homepage": "https://github.com/crazyricardo/gatsby-plugin-crazyegg#readme",
