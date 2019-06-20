@@ -8,7 +8,7 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       <script
         key={`gatsby-plugin-crazyegg`}
         type="text/javascript"
-        src={`https://script.crazyegg.com/pages/scripts/${paddedAccount.slice(0,4)}/${paddedAccount.slice(4)}`}
+        src={`https://script.crazyegg.com/pages/scripts/${paddedAccount.slice(0,4)}/${paddedAccount.slice(4)}.js`}
         async="async"
       />,
     ])
