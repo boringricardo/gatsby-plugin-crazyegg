@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adds <script> for site to head adds the script to head 1`] = `[MockFunction]`;
+
+exports[`Adds <script> for site to head does not add <script> if the account number is empty 1`] = `[MockFunction]`;
+
+exports[`Adds <script> for site to head doesn't add the script if NODE_ENV is not "production" 1`] = `[MockFunction]`;

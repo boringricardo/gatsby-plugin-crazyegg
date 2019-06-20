@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-plugin-crazyegg",
+  "description": "Gatsby plugin that adds the Crazy Egg tracking script",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Ricardo van Hoepen",
+  "homepage": "https://github.com/crazyricardo/gatsby-plugin-crazyegg#readme",
+  "repository": "https://github.com/crazyricardo/gatsby-plugin-crazyegg",
+  "bugs": {
+    "url": "https://github.com/crazyricardo/gatsby-plugin-crazyegg/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.2.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ]
+}
